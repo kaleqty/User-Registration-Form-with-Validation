@@ -1,0 +1,183 @@
+/* Main form container */
+.registration-container {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+  }
+  
+  /* Form heading */
+  .form-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #2563eb; /* blue-600 */
+  }
+  
+  /* Form layout */
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  /* Label styling */
+  .form-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151; /* gray-700 */
+    margin-bottom: 4px;
+  }
+  
+  /* Input field styling */
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d1d5db; /* gray-300 */
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #3b82f6; /* blue-500 */
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3); /* blue-500 with opacity */
+  }
+  
+  /* Error state for inputs */
+  .input-error {
+    border-color: #ef4444; /* red-500 */
+  }
+  
+  /* Error message text */
+  .error-message {
+    color: #ef4444; /* red-500 */
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  
+  /* Success message container */
+  .success-message {
+    background-color: #dcfce7; /* green-100 */
+    border: 1px solid #4ade80; /* green-400 */
+    color: #15803d; /* green-700 */
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  .success-title {
+    font-weight: bold;
+  }
+  
+  .register-again-btn {
+    margin-top: 8px;
+    background-color: #10b981; /* green-500 */
+    color: white;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .register-again-btn:hover {
+    background-color: #059669; /* green-600 */
+  }
+  
+  /* Submit button */
+  .submit-button {
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button-enabled {
+    background-color: #2563eb; /* blue-600 */
+  }
+  
+  .submit-button-enabled:hover {
+    background-color: #1d4ed8; /* blue-700 */
+  }
+  
+  .submit-button-disabled {
+    background-color: #9ca3af; /* gray-400 */
+    cursor: not-allowed;
+  }
+  
+  /* Password strength indicator */
+  .strength-container {
+    margin-top: 8px;
+  }
+  
+  .strength-label {
+    font-size: 12px;
+    margin-right: 8px;
+  }
+  
+  .strength-meter {
+    height: 8px;
+    background-color: #e5e7eb; /* gray-200 */
+    border-radius: 9999px;
+    overflow: hidden;
+    flex: 1;
+    display: inline-block;
+    width: 70%;
+    vertical-align: middle;
+  }
+  
+  .strength-indicator {
+    height: 100%;
+  }
+  
+  .strength-weak {
+    background-color: #ef4444; /* red-500 */
+  }
+  
+  .strength-medium {
+    background-color: #f97316; /* orange-500 */
+  }
+  
+  .strength-strong {
+    background-color: #10b981; /* green-500 */
+  }
+  
+  .strength-text {
+    font-size: 12px;
+    margin-left: 8px;
+    display: inline-block;
+  }
+  
+  .text-red {
+    color: #ef4444; /* red-500 */
+  }
+  
+  .text-orange {
+    color: #f97316; /* orange-500 */
+  }
+  
+  .text-green {
+    color: #10b981; /* green-500 */
+  }
+  
+  .strength-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Layout helpers */
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
